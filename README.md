@@ -1,12 +1,8 @@
 # Control de Movimiento
 
-## ¿En qué consiste?
 El control de movimiento consiste en gestionar el movimiento mecánico de una carga. 
 
-### Ejemplo
-Una máquina de impresión, donde la carga es el cartucho y el mecanismo que transfiere la energía a este.
-
-## ¿En qué industrias se usa?
+## Industrias de aplicación
 - Empaque
 - Ensamblaje
 - Impresión
@@ -15,24 +11,17 @@ Una máquina de impresión, donde la carga es el cartucho y el mecanismo que tra
 - Electrónica y semiconductores
 
 ## Ejes de movimiento
-Cada movimiento que genere un actuador se denomina eje (axis). Un sistema de control de movimiento puede tener múltiples ejes sincronizados para llevar a cabo una tarea.
+Eje (axis): Movimiento realizado por un actuador. 
+Se pueden tener varios ejes de control para realizar una tarea.
 
-### Ejemplo
-En el caso de una impresora:
-- Un eje es el movimiento lineal del cartucho.
-- Otro eje es el rodillo que mueve la hoja de papel.
-
-## ¿Qué se controla?
+## Variables a controlar
 - Posición
 - Velocidad
 - Torque
 - Aceleración
 
 ## Ejemplo CNC
-Los sistemas de control de movimiento son fundamentales en máquinas CNC para realizar cortes y movimientos de precisión.
-
-## ¿Cómo se hacía antes del control?
-Anteriormente, se usaba un único motor con un eje largo y diferentes engranajes para cambiar trayectorias y velocidades. Este método es menos flexible y más costoso en mantenimiento.
+Los sistemas de control de movimiento son fundamentales en máquinas CNC para realizar cortes y movimientos de precisión. Anteriormente, se usaba un único motor con un eje largo y diferentes engranajes para cambiar trayectorias y velocidades. Este método es menos flexible y más costoso en mantenimiento.
 
 ### Ejemplo
 - Máquina Dobladora
