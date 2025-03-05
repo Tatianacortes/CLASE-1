@@ -49,8 +49,21 @@ Los sistemas de control de movimiento son fundamentales en máquinas CNC para re
 - **Ensamble de componentes electrónicos**.
 
 ## Ejemplos adicionales
-1. **Brazo robótico**: Un robot de ensamblaje usa control de movimiento para posicionar piezas con precisión.
-2. **Sistema de riego automatizado**: Un mecanismo controla el desplazamiento de los rociadores en una plantación.
+### **Brazo robótico**  
+Un robot de ensamblaje usa **control de movimiento** para posicionar piezas con precisión. Para lograrlo, se implementan los siguientes mecanismos de control:  
+
+- **Control de posición y trayectoria:** Se utilizan servomotores y sensores para asegurar que el brazo se mueva a la posición exacta con alta repetibilidad.  
+- **Control de velocidad y aceleración:** Se ajustan los perfiles de velocidad para evitar movimientos bruscos que puedan dañar las piezas o reducir la eficiencia del ensamblaje.  
+- **Control de torque:** Se regula la fuerza ejercida por los motores para manipular diferentes tipos de piezas sin dañarlas.  
+- **Realimentación sensorial:** Sensores ópticos y táctiles verifican que las piezas estén correctamente colocadas y permiten correcciones en tiempo real.  
+
+### **Sistema de riego automatizado**  
+Un mecanismo controla el desplazamiento de los rociadores en una plantación mediante diferentes sistemas de control:  
+
+- **Control de posición y desplazamiento:** Se utilizan actuadores para mover los rociadores según un patrón predefinido que maximiza la cobertura de agua.  
+- **Control de caudal y presión:** Sensores de flujo y presión ajustan la cantidad de agua suministrada para evitar el desperdicio y garantizar una irrigación uniforme.  
+- **Control basado en datos ambientales:** Sensores de humedad del suelo y estaciones meteorológicas ajustan el riego según las condiciones climáticas, optimizando el consumo de agua.  
+- **Automatización con control en lazo cerrado:** La información en tiempo real permite corregir errores y ajustar el sistema sin intervención humana, asegurando una irrigación eficiente y precisa.  
 
 ## Conclusiones
 - El control de movimiento es clave en la automatización industrial.
