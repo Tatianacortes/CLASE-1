@@ -28,17 +28,13 @@ Los sistemas de control de movimiento son fundamentales en máquinas CNC para re
 - Máquina Etiquetadora
 
 ## Componentes del control de movimiento
-- **Human-Machine Interface (HMI)**
-- **Control de movimiento**
-- **Drivers (potencia)**
-- **Actuadores**
-- **Mecanismos de transmisión**
-- **Retroalimentación (sensores)**
+![Figura de prueba](imagenes/esquema.png)
 
 ## Características del control
-- La fuerza negativa provocada por el movimiento debe ser compensada.
-- Se debe controlar el torque para reducir el offset de velocidad.
-- La dinámica de la velocidad debe ser rápida para garantizar trayectorias precisas.
+
+- Cuando el motor mueve una carga, aparece una fuerza en sentido contrario que afecta su velocidad. Para evitar problemas, hay que ajustar bien el torque y hacerlo de forma rápida y suave.  
+- El control de velocidad debe ser preciso para seguir trayectorias con exactitud.  
+- Es importante diseñar bien el controlador de potencia para ahorrar energía y prolongar la vida útil del motor y la electrónica.  
 
 ## Esquema de control
 ### Lazo en cascada
