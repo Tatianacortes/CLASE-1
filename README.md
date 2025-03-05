@@ -38,7 +38,7 @@ Los sistemas de control de movimiento son fundamentales en máquinas CNC para re
 
 ## Esquema de control
 ### Lazo en cascada
-Este esquema mejora la precisión y respuesta del sistema de control de movimiento.
+![Figura de prueba](imagenes/LAZO.png)
 
 ## Aplicaciones prácticas
 - **Transporte**: Cadenas de suministro automatizadas.
@@ -50,31 +50,6 @@ Este esquema mejora la precisión y respuesta del sistema de control de movimien
 ## Ejemplos adicionales
 1. **Brazo robótico**: Un robot de ensamblaje usa control de movimiento para posicionar piezas con precisión.
 2. **Sistema de riego automatizado**: Un mecanismo controla el desplazamiento de los rociadores en una plantación.
-
-## Ecuaciones
-La ecuación básica del movimiento controlado:
-\[ F = m \cdot a \]
-Donde:
-- \( F \) es la fuerza aplicada,
-- \( m \) es la masa de la carga,
-- \( a \) es la aceleración resultante.
-
-## Figuras
-1. Esquema de un sistema de control de movimiento.
-2. Diagrama de un controlador PID en lazo cerrado.
-
-## Tablas
-| Componente | Función |
-|------------|---------|
-| HMI | Interfaz de usuario |
-| Controlador | Gestiona el movimiento |
-| Driver | Proporciona potencia |
-| Actuadores | Ejecutan el movimiento |
-| Sensores | Retroalimentación |
-
-## Ejercicios
-1. ¿Cuál es la diferencia entre un sistema de control de movimiento con lazo abierto y uno con lazo cerrado?
-2. Diseña un sistema de control de movimiento para una banda transportadora en una fábrica.
 
 ## Conclusiones
 - El control de movimiento es clave en la automatización industrial.
