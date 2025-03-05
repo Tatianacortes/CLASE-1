@@ -1,4 +1,4 @@
-# Control de Movimiento
+# Control de Movimiento - CLASE 1
 
 El control de movimiento consiste en gestionar el movimiento mecánico de una carga. 
 
