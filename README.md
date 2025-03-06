@@ -23,7 +23,7 @@ Se pueden tener varios ejes de control para realizar una tarea.
 ## Ejemplo CNC
 Los sistemas de control de movimiento son fundamentales en máquinas CNC para realizar cortes y movimientos de precisión. Anteriormente, se usaba un único motor con un eje largo y diferentes engranajes para cambiar trayectorias y velocidades. Este método es menos flexible y más costoso en mantenimiento.  
 
-![Figura de prueba](imagenes/torno.jpg)
+![Figura de prueba](imagenes/torno.png)
 ### Ejemplo
 - Máquina Dobladora
 - Máquina Etiquetadora
